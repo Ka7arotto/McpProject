@@ -12,25 +12,15 @@ mcp_server/
 ├── .env
 ├── .python-version
 ├── client.py
-├── fscan.py
 ├── get-pip.py
 ├── mcp_server.code-workspace
 ├── pyproject.toml
 ├── README.md
-├── test.py
-├── test.txt
 ├── uv.lock
-├── __pycache__/
-│   ├── config.cpython-313.pyc
-│   └── main.cpython-313.pyc
 └── tools/
     ├── __init__.py
     ├── file.py
-    ├── fscan.py
-    ├── tempCodeRunnerFile.py
-    ├── test.py
     ├── weather.py
-    └── wy.py
 ```
 
 ## 文件说明
@@ -41,8 +31,6 @@ mcp_server/
 -   `.env`: 环境变量配置文件。
 -   `pyproject.toml`: 项目配置文件，包含依赖和元信息。
 -   `README.md`: 项目说明文件。
--   `test.py`: 测试脚本。
--   `tools/tempCodeRunnerFile.py`: 临时代码运行文件。
 
 ## Usage
 
