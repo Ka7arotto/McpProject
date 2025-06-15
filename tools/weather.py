@@ -1,4 +1,4 @@
-import json
+﻿import json
 import httpx
 from typing import Any
 from mcp.server.fastmcp import FastMCP
@@ -6,7 +6,7 @@ from mcp.server.fastmcp import FastMCP
 
 #OpenWeather API配置
 OPENWEATHER_API="https://api.openweathermap.org/data/2.5/weather"
-API_KEY="6444ff26b36d8fa88eaaf862445e138f"
+API_KEY=""
 USER_AGENT="weather-app/1.0"
 #初始化MCP服务器
 mcp=FastMCP()
@@ -66,11 +66,11 @@ def format_weather(data:dict[str,Any]|str)->str:
     description = weather_list[0].get("description", "未知")
  
     return (
-        f"🌍 {city}, {country}\n"
-        f"🌡 温度: {temp}°C\n"
-        f"💧 湿度: {humidity}%\n"
-        f"🌬 风速: {wind_speed} m/s\n"
-        f"🌤 天气: {description}\n"
+        f"ð {city}, {country}\n"
+        f"ð¡ 温度: {temp}°C\n"
+        f"ð§ 湿度: {humidity}%\n"
+        f"ð¬ 风速: {wind_speed} m/s\n"
+        f"ð¤ 天气: {description}\n"
     )
     
 
